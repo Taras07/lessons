@@ -1,0 +1,90 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+   font-family: "Cormorant Garamond";
+   font-size: 20px;
+   font-weight: 300;
+}
+
+span{
+   color:rgb(223, 13, 27);
+}
+
+h1,
+h2,
+h3 {
+   font-family: "Poppins", sans-serif;
+   font-size: 50px;
+   font-weight: 500;
+   text-align: center;
+   text-transform: uppercase;
+   color:black;
+}
+
+h1{
+   color:rgb(106, 37, 28);
+   letter-spacing: 1.1em;
+}
+
+h2 {
+   font-family: "Poppins", sans-serif;
+   font-size: 35px;
+   font-weight: 300;
+   text-transform: uppercase;
+}
+
+.img {
+   width: 100%;
+}
+
+.main {
+   font-family: "Cormorant Garamond", sans-serif;
+   font-size: 18px;
+   font-weight: 300;
+   text-transform: uppercase;
+   color:rgb(0, 0, 0);
+}
+
+.main__story {
+   font-family: "Lobster Two", sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   text-transform: uppercase;
+   color:rgb(57, 141, 86);
+}
+
+.main__plan {
+   font-family: "Castoro", sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   text-transform: uppercase;
+   color:rgb(123, 16, 41);
+}
+
+.main__production{
+    font-family: "Cormorant Garamond", sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   text-transform: uppercase;
+   color:rgb(22, 95, 141);
+}
+
+.footer__img {
+   font-family: "Poppins", sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   display: flex;
+}
+
+.footer__id {
+   display: block;
+   font-family: "Poppins", sans-serif;
+   font-size: 50px;
+   font-weight: 500;
+   text-align: center;
+   text-transform: uppercase;
+   color:rgb(106, 37, 28);
+   letter-spacing: 0.3em;
+}
+

@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700italic&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Castoro:regular,italic&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:regular,italic,700,700italic&display=swap);
+
+
+@font-face {
+   font-family: "Cormorant Garamond";
+   src: url('../fonts/CormorantGaramond-Bold.woff2') format('woff2'),
+       url('../fonts/CormorantGaramond-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Cormorant Garamond";
+   src: url('../fonts/CormorantGaramond-Light.woff2') format('woff2'),
+       url('../fonts/CormorantGaramond-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Cormorant Garamond";
+   src: url('../fonts/CormorantGaramond-Medium.woff2') format('woff2'),
+       url('../fonts/CormorantGaramond-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+
