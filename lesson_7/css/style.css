@@ -1,0 +1,181 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+
+
+header {
+	background: url("../img/07.png") center/cover no-repeat;
+	padding: 330px 0 100px 100px;
+}
+
+.header__conteiner {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	max-width: 605px;
+}
+
+.header__date {
+	padding-bottom: 30px;
+}
+
+.header__conteiner p {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.66;
+	/* 20/12 */
+	color: #E5E5E5;
+}
+
+.header__conteiner h1 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	/* 40/25 */
+	color: #F8F9FA;
+	padding-bottom: 30px;
+}
+
+.block-1 {
+	background: rgb(221, 237, 206);
+	background: linear-gradient(176deg, rgba(221, 237, 206, 1) 11%, rgba(223, 202, 138, 1) 87%);
+}
+
+.main {
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.0;
+	/* 16/16 */
+	color: #637381;
+	max-width: 450px;
+	padding-left: 135px;
+	padding-bottom: 100px;
+
+}
+
+.main h1 {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.07;
+	/* 28/26 */
+	color: #212B36;
+	padding-top: 100px;
+	margin-bottom: 45px;
+}
+
+.main__list ul {
+	margin-bottom: 60px;
+}
+
+.list-1 li {
+	background: url("../img/icons/01.png") 0 4px / 8px no-repeat;
+	padding-left: 15px;
+	margin-bottom: 18px;
+	min-height: 20px;
+}
+
+.list-2 li {
+	background: url("../img/icons/04.png") 0 0 / 20px no-repeat;
+	padding-left: 30px;
+	margin-bottom: 18px;
+	padding-top: 3px;
+	min-height: 20px;
+}
+
+.list-3 li {
+	background: url("../img/icons/02.png") 0 0 / 20px no-repeat;
+	padding-left: 30px;
+	margin-bottom: 18px;
+	padding-top: 3px;
+	min-height: 20px;
+}
+
+.list-4 li {
+	background: url("../img/icons/05.png") 0 0 / 20px no-repeat;
+	padding-left: 30px;
+	margin-bottom: 18px;
+	padding-top: 3px;
+	min-height: 20px;
+}
+
+.list-5 li {
+	background: url("../img/icons/03.png") 0 0 / 20px no-repeat;
+	padding-left: 30px;
+	margin-bottom: 18px;
+	padding-top: 3px;
+	min-height: 20px;
+}
+
+.list-6 li {
+	background: url("../img/icons/06.png") 0 0 / 20px no-repeat;
+	padding-left: 30px;
+	margin-bottom: 18px;
+	padding-top: 3px;
+	min-height: 20px;
+}
+
+
+
+.main__block {
+	background: url("../img/08.png") 83% / 272px 396px no-repeat, url("../img/17.png") 100% / contain no-repeat, url("../img/18.png") 100% / contain no-repeat, #F4F7FF;
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.50;
+	/* 24/16 */
+	color: #637381;
+	padding: 145px 0 146px 135px;
+}
+
+.main__sound {
+	max-width: 570px;
+}
+
+.main__price {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.33;
+	/* 24/18 */
+	color: #3056D3;
+	padding-bottom: 13px;
+}
+
+.main__sound h1 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.25;
+	/* 45/36 */
+	color: #212B36;
+	padding-bottom: 15px;
+}
+
+button {
+	color: #FFFFFF;
+	font-weight: 600;
+	padding: 10px 30px;
+	background: #3056D3;
+	border-radius: 30px;
+	margin-top: 35px;
+
+}
+
+footer {
+	height: 150px;
+	background: url("../img/07.png") center/cover no-repeat;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+.footer button {
+	color: #000000;
+	font-weight: 600;
+	padding: 10px 30px;
+	background: #3084d3;
+	border-radius: 30px;
+}
