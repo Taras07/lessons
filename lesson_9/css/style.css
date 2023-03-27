@@ -1,0 +1,259 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+h1,
+h2 {
+	font-weight: 700px;
+	font-size: 35px;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #F4F7FF;
+}
+
+.header {
+	width: 100%;
+	background: #FFFFFF;
+	background: url("../img/icons/00.svg") 80% no-repeat;
+}
+
+.header__logo {
+	max-height: 101px;
+	max-width: 360px;
+	padding: 28px 32px 28px 135px;
+	background-color: rgba(48, 86, 211, 1);
+}
+
+.header__phone {
+	margin-left: 10px;
+	padding: 25px 25px;
+	border: 3px solid gray;
+	background-color: #FFFFFF;
+}
+
+.header__fon {
+	width: 100%;
+}
+
+main {
+	padding-bottom: 50px;
+}
+
+.main__conteiner {
+	max-width: 632px;
+	margin: 100px auto 80px;
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.main__conteiner img {
+	border-radius: 5%;
+}
+
+.main__block-1 {
+	max-width: 270px;
+	max-height: 670px;
+	margin-right: 30px;
+}
+
+.block-1__1 {
+	margin-bottom: 30px;
+}
+
+.main__block-2 {
+	width: 300px;
+	height: 670px;
+	padding: 121px 30px 149px 0;
+	background: url("../img/img_fon/18.webp") 147px 430px/ 50% no-repeat;
+}
+
+.conteiner {
+	margin: 0 auto;
+	background-color: #F4F7FF;
+}
+
+.conteiner h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(48, 86, 211, 1);
+}
+
+.conteiner__box,
+.conteiner__image {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.box-1,
+.box-2 {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.box__one-1,
+.box__one-2,
+.box__two-1,
+.box__two-2 {
+	margin-right: 30px;
+}
+
+.box__one-1 {
+	background: url("../img/icons/01.svg") 40px 40px/ 70px 70px no-repeat;
+}
+
+.box__one-2 {
+	background: url("../img/icons/02.svg") 40px 40px/ 70px 70px no-repeat;
+}
+
+.box__one-3 {
+	background: url("../img/icons/03.svg") 40px 40px/ 70px 70px no-repeat;
+}
+
+.box__two-1 {
+	background: url("../img/icons/04.svg") 40px 40px/ 70px 70px no-repeat;
+}
+
+.box__two-2 {
+	background: url("../img/icons/05.svg") 40px 40px/ 70px 70px no-repeat;
+}
+
+.box__two-3 {
+	background: url("../img/icons/06.svg") 40px 40px/ 70px 70px no-repeat;
+}
+
+.box__one-1,
+.box__one-2,
+.box__one-3,
+.box__two-1,
+.box__two-2,
+.box__two-3 {
+	padding: 150px 185px;
+	background-color: #FFFFFF;
+	box-shadow: 7px 12px 14px -9px;
+	border-radius: 20px;
+}
+
+.conteiner__image h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(48, 86, 211, 1);
+}
+
+.image__box img {
+	border-radius: 10px;
+	max-width: 370px;
+	max-height: 300px;
+}
+
+.conteiner__img {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.image__1 {
+	margin-right: 25px;
+}
+
+.conteiner__img-3 img {
+	max-width: 270px;
+	max-height: 330px;
+}
+
+.img__1 {
+	margin-right: 25px;
+}
+
+.prais {
+	display: flex;
+}
+
+.minimal,
+.max {
+	margin-top: 43px;
+	width: 406px;
+	height: 521px;
+	background: #FFFFFF;
+	border: 2px solid #D4DEFF;
+	border-radius: 8px;
+}
+
+.popular {
+	padding: 302px 185px;
+	background: url("../img/icons/Vector\ 14.svg") 255px 0px no-repeat, url("../img/icons/Vector\ 15.svg") 0px 385px no-repeat, linear-gradient(180deg, #3056D3 0%, #179BEE 100%);
+	border-radius: 8px;
+}
+
+.minimal {
+	background: url("../img/icons/Oval.svg") -2px 470px no-repeat;
+}
+
+.max {
+	background: url("../img/icons/Oval_2.svg") 351px -2px no-repeat;
+}
+
+.clients h2 {
+	margin: 40px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(48, 86, 211, 1);
+}
+
+.clients {
+	margin-top: 120px;
+	padding-top: 145px;
+	padding-bottom: 145px;
+	background: url("../img/img_fon/19.svg") 1% 5% no-repeat, url("../img/img_fon/19.svg") 99% 96% no-repeat, rgba(48, 86, 211, 1);
+}
+
+.clients__block {
+	max-width: 1170px;
+	margin: 0 auto;
+	max-height: 96px;
+	display: flex;
+
+}
+
+.clients__text {
+	max-width: 470px;
+	max-height: 96px;
+	margin-right: 120px;
+}
+
+.clients__text p {
+	font-family: "Inter" sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	font-style: normal;
+	color: #FFFFFF;
+	line-height: 1.37;
+	/* 48/35 */
+}
+
+.clients__icon {
+	max-width: 580px;
+	max-height: 41px;
+	padding-top: 35px;
+}
+
+.clients-1 {
+	padding-right: 25px;
+}
+
+.testimonials{
+	max-width: 810px;
+	max-height: 332px;
+	padding: 166px 405px;
+	margin: 0 auto;
+	margin-top: 35px;
+	background: url("../img/img_fon/20.svg") -3% 108%  no-repeat;
+
+}
