@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 12</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			Lesson 12
+		</header>
+		<main class="page">
+			<h1 class="header header-2D-3D">CSS Transform</h1>
+			<div class="content__2D">
+				<section class="content__block">
+					<h2>translate (x, y)</h2>
+					<div class="content__translate translate-1">translate-1</div>
+					<h2>translateX (%)</h2>
+					<div class="content__translate translate-2">translate-2</div>
+					<h2>translate (x, y)</h2>
+					<div class="content__translate translate-3">translate-3</div>
+				</section>
+				<section class="content__block">
+					<h2>scale(2)</h2>
+					<div class="content__translate scale-1">scale-1</div>
+					<h2>scale(-0.8)</h2>
+					<div class="content__translate scale-2">scale-2</div>
+					<h2>scale(-1, 1)</h2>
+					<div class="content__translate scale-3">scale-3</div>
+				</section>
+				<section class="content__block">
+					<h2>rotate(-90deg)</h2>
+					<div class="content__translate rotate-1">rotate-1</div>
+					<h2>rotate(90deg)</h2>
+					<div class="content__translate rotate-2">rotate-2</div>
+					<h2>rotate(360deg)</h2>
+					<div class="content__translate rotate-3">rotate-3</div>
+				</section>
+				<section class="content__block">
+					<h2>skew(10deg)</h2>
+					<div class="content__translate skew-1">skew-1</div>
+					<h2>skew(-10deg, -10deg)</h2>
+					<div class="content__translate skew-2">skew-2</div>
+					<h2>skew(10deg, 10deg)</h2>
+					<div class="content__translate skew-3">skew-3</div>
+				</section>
+				<section class="content__block">
+					<h2>translate(50px, 50px) scale(0.5) rotate(360deg);</h2>
+					<div class="content__translate matrix-1">matrix-1</div>
+					<h2>translate(50px, 50px) scale(1) rotate(90deg)</h2>
+					<div class="content__translate matrix-2">matrix-2</div>
+					<h2>translate(20px, 20px) scale(3) rotate(360deg)</h2>
+					<div class="content__translate matrix-3">matrix-3</div>
+				</section>
+				<section class="content__block">
+					<h2>transform: rotate(-90deg);</h2>
+					<div class="content__translate transform-origin-1">transform-origin-1</div>
+					<h2>transform: rotate(90deg);</h2>
+					<div class="content__translate transform-origin-2">transform-origin-2</div>
+					<h2>transform: scale(2);</h2>
+					<div class="content__translate transform-origin-3">transform-origin-3</div>
+				</section>
+			</div>
+
+			<!-- ******************************************************** -->
+			<h1 class="header header-2D-3D">3D трансформації </h1>
+			<div class="content__3D">
+				<section class="content__block">
+					<h2>transform: rotateX(50deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate perspective-1">perspective, perspective-origin-1</div>
+					</div>
+					<h2>transform: rotateY(-50deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate perspective-2">perspective, perspective-origin-2</div>
+					</div>
+					<h2>transform: rotate(320deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate perspective-3">perspective, perspective-origin-3</div>
+					</div>
+				</section>
+				<section class="content__block">
+					<h2>translate3D(20px, 20px, 50px)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate translate3D-1">translate3D-1</div>
+					</div>
+					<h2>transform: translate3D(-40px, -40px, 50px)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate translate3D-2">translate3D-2</div>
+					</div>
+					<h2>transform: translate3D(-50px, -50px, -50px)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate translate3D-3">translate3D-3</div>
+					</div>
+				</section>
+				<section class="content__block">
+					<h2>transform: scale3D(2, 2, 2)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate scale3D-1">scale3D-1</div>
+					</div>
+					<h2>transform: scale3D(-2, 2, 2)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate scale3D-2">scale3D-2</div>
+					</div>
+					<h2>transform: scale3D(2, -2, 2)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate scale3D-3">scale3D-3</div>
+					</div>
+				</section>
+				<section class="content__block">
+					<h2>transform: rotate3D(1, 1, 1, 80deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate rotate3D-1">rotate3D-1</div>
+					</div>
+					<h2>transform: rotate3D(-1, -1, -1, 80deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate rotate3D-2">rotate3D-2</div>
+					</div>
+					<h2>transform: rotate3D(1, 1, 1, 310deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate rotate3D-3">rotate3D-3</div>
+					</div>
+				</section>
+				<section class="content__block">
+					<h2>transform: translate3D(29px, 20px, 20px) rotate3D(1, 1, 1, 20deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate matrix3D-1">matrix3D-1</div>
+					</div>
+					<h2>transform: translate3D(-29px, -20px, 20px) rotate3D(1, 1, 1, 40deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate matrix3D-2">matrix3D-2</div>
+					</div>
+					<h2>transform: translate3D(29px, 20px, 20px) rotate3D(1, 1, 1, 80deg)</h2>
+					<div class="content__wrapper3d">
+						<div class="content__translate matrix3D-3">matrix3D-3</div>
+					</div>
+				</section>
+				<section class="content__block">
+					<h2>transform: translate3D(29px, 20px, 20px) rotate3D(1, 1, 1, 20deg)</h2>
+					<div class="content__wrapper3d-style">
+						<div class="content__translate transform-style-1">transform-style-1</div>
+					</div>
+					<h2>transform: translate3D(-29px, -20px, 20px) rotate3D(1, 1, 1, 40deg)</h2>
+					<div class="content__wrapper3d-style">
+						<div class="content__translate transform-style-2">transform-style-2</div>
+					</div>
+					<h2>transform: translate3D(29px, 20px, 20px) rotate3D(1, 1, 1, 80deg)</h2>
+					<div class="content__wrapper3d-style">
+						<div class="content__translate transform-style-3">transform-style-3</div>
+					</div>
+				</section>
+				<h1 class="header header-2D-3D"> SUPER GAME - обійди дурашку та знайди вкусняшку</h1>
+				<section class="content__block">
+					<div class="content__block block-flyp">
+						<div class="flip">
+							<div class="flip__body">
+								<div class="flip__front">
+									<img class="flip__img" src="img/01.JPG" alt="">
+								</div>
+								<div class="flip__back">
+									<img class="flip__img" src="img/03.JPG" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="flip">
+							<div class="flip__body">
+								<div class="flip__front-two">
+									<img class="flip__img" src="img/01.JPG" alt="">
+								</div>
+								<div class="flip__back-two">
+									<img class="flip__img" src="img/02.JPG" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="flip">
+							<div class="flip__body">
+								<div class="flip__front-three">
+									<img class="flip__img" src="img/01.JPG" alt="">
+								</div>
+								<div class="flip__back-three">
+									<img class="flip__img" src="img/04.JPG" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="flip">
+							<div class="flip__body">
+								<div class="flip__front-three">
+									<img class="flip__img" src="img/01.JPG" alt="">
+								</div>
+								<div class="flip__back-three">
+									<img class="flip__img" src="img/05.JPG" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+
+
+
+
+
+
+
+			<!-- 
+			<h2>scale</h2>
+			<div class="block-1-scale">block-1 scale</div>
+			<div class="block-2-scale">block-2 scale</div>
+			<div class="block-3-scale">block-3 scale</div>
+			<h2>rotate</h2>
+			<div class="block-1-rotate">block-1 rotate</div>
+			<div class="block-2-rotate">block-2 rotate</div>
+			<div class="block-3-rotate">block-3 rotate</div>
+			<h2>skew</h2>
+			<div class="block-1-skew">block-1 skew</div>
+			<div class="block-2-skew">block-2 skew</div>
+			<div class="block-3-skew">block-3 skew</div>
+			<h2>matrix</h2>
+			<div class="block-1-matrix">block-1 matrix</div>
+			<div class="block-2-matrix">block-2 matrix</div>
+			<div class="block-3-matrix">block-3 matrix</div>
+			<h2>transform origin</h2>
+			<div class="block-1-transform-origin">block-1 transform origin</div>
+			<div class="block-2-transform-origin">block-2 transform origin</div>
+			<div class="block-3-transform-origin">block-3 transform origin</div>
+			<h2>perspectiva, perspective-origin</h2>
+			<div class="block-perspectiva">
+				<div class="block-1-perspectiva">block-1 perspectiva, perspective-origin</div>
+				<div class="block-2-perspectiva">block-2 perspectiva, perspective-origin</div>
+			</div>
+			<h2>translate3D</h2>
+			<div class="block block-translate3D">
+				<div class="block-1-translate3D">block-1 translate3D</div>
+				<div class="block-2-translate3D">block-2 translate3D</div>
+				<div class="block-3-translate3D">block-3 translate3D</div>
+				<div class="block-4-matrix3D">block-4 matrix3D</div>
+				<div class="block-5-transform-style">block-3 translate3D</div>
+			</div>
+			<div class="block__backface-visibility">
+				<div class="block__flip">
+					<div class="block__front">Front</div>
+					<div class="block__back">Back</div>
+				</div>
+			</div> -->
+
+		</main>
+		<footer></footer>
+	</div>
+</body>
+
+</html>
