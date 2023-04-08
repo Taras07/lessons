@@ -430,3 +430,415 @@ h2 {
 .flip:hover .flip__body {
 	transform: rotateY(-180deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***********CAR***************** */
+.container{
+	display: flex;
+	background-color: aqua;
+	padding-bottom: 200px;
+
+}
+
+.container__fon {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* .container__top {
+	height: 200px;
+	background-color: rgb(56, 160, 207);
+}
+
+.container__bottom {
+	height: 1000px;
+	background-color: rgb(232, 238, 235);
+} */
+
+.car__all {
+	padding-left: 20px;
+	padding-top: 15px;
+	display: flex;
+	max-width: 2000px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	position: relative;
+	bottom: 600px;
+	left: -15%;
+	top: 200px;
+}
+
+/* ***************************** */
+.car__hoot-motor {
+	position: relative;
+	top: 160px;
+}
+
+.car__hood {
+	width: 300px;
+	height: 100px;
+	border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
+	background-color: rgb(170, 61, 46);
+}
+
+.car__motor {
+	width: 300px;
+	height: 100px;
+	background-color: rgb(46, 170, 122);
+
+}
+
+.car__headlight {
+	width: 60px;
+	height: 25px;
+	background-color: rgb(240, 11, 11);
+	border-radius: 100% 6% 100% 0% / 4% 32% 68% 84%;
+	position: relative;
+	bottom: 85px;
+}
+
+/* *********************************** */
+
+.car__cabin {
+	display: flex;
+}
+
+.car__cabin-before {
+	width: 200px;
+	height: 360px;
+	border-radius: 100% 0% 100% 0% / 18% 100% 0% 82%;
+	background-color: rgb(104, 46, 170);
+}
+
+.car__cabin-ass {
+	width: 195px;
+	height: 360px;
+	background-color: rgb(46, 170, 63);
+}
+
+.car__cabin-smoke {
+	width: 45PX;
+	height: 260px;
+	background-color: rgb(136, 136, 139);
+	position: relative;
+	right: 6%;
+	top: 51px;
+}
+
+.car__cabin-smoke-two {
+	width: 110PX;
+	height: 50px;
+	background-color: rgb(136, 136, 139);
+	position: relative;
+	right: 12%;
+	top: 310px;
+	border-radius: 20px;
+	z-index: 1;
+}
+
+.car__cabin-smoke-three {
+	width: 20px;
+	height: 80px;
+	background-color: rgb(136, 136, 139);
+	border-radius: 100% 0% 35% 65% / 100% 100% 0% 0%;
+	position: relative;
+	right: 21%;
+	top: -28px;
+}
+
+/* *************************************** */
+.car__cabin-door {
+	width: 118px;
+	height: 210px;
+	background-color: black;
+	border-radius: 100% 0% 100% 0% / 14% 100% 0% 86%;
+	position: relative;
+	left: 35%;
+	top: 104px;
+}
+
+.car__cabin-window {
+	width: 103px;
+	height: 111px;
+	background-color: rgb(248, 243, 243);
+	border-radius: 100% 0% 100% 0% / 19% 100% 0% 9%;
+	position: relative;
+	left: 39%;
+	top: -96px;
+}
+
+.car__cabin-handle {
+	width: 33px;
+	height: 10px;
+	background-color: rgb(248, 6, 6);
+	border-radius: 100% 0% 79% 21% / 0% 46% 54% 100%;
+	position: relative;
+	left: 74%;
+	top: -71px;
+}
+
+/* ************************************* */
+
+.car__wheel {
+	position: relative;
+	left: 28%;
+	top: -143px;
+
+}
+
+.car__wheel-discs {
+	width: 60px;
+	height: 60px;
+	background-color: gainsboro;
+	border-radius: 50%;
+	position: relative;
+	left: 14%;
+	top: 103px;
+}
+
+.car__wheel-tire {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 50%;
+}
+
+.car__wheel-nut {
+	position: relative;
+	left: 23%;
+	top: -95px;
+}
+
+.car__wheel-nut-1,
+.car__wheel-nut-2,
+.car__wheel-nut-3,
+.car__wheel-nut-4,
+.car__wheel-nut-5 {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: rgb(238, 4, 4);
+}
+
+.car__wheel-nut-1 {
+	position: relative;
+	left: 1%;
+	top: -11px;
+}
+
+.car__wheel-nut-2 {
+	position: relative;
+	left: 8%;
+	top: 0px;
+}
+
+.car__wheel-nut-3 {
+	position: relative;
+	left: 5%;
+	top: 17px;
+}
+
+.car__wheel-nut-4 {
+	position: relative;
+	left: -6%;
+	top: 7px;
+}
+
+.car__wheel-nut-5 {
+	position: relative;
+	left: -8%;
+	top: -28px;
+}
+
+.car__wheel-nut-6 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: gainsboro;
+	border: 2px solid;
+	position: relative;
+	left: -4%;
+	top: -37px;
+}
+
+/* *************************************** */
+.car__trailer {
+	width: 400px;
+	height: 59px;
+	background-color: brown;
+	position: relative;
+	left: -18%;
+	top: 301px;
+}
+
+.car__trailer-holder {
+	width: 240px;
+	height: 25px;
+	background-color: rgb(65, 42, 165);
+	position: relative;
+	left: 41%;
+	top: -25px;
+}
+
+.car__wheels-one-two {
+	display: flex;
+	position: relative;
+	left: 45px;
+	top: -16px;
+	z-index: 1;
+}
+
+.car__trailer-one {
+	position: relative;
+	left: 11%;
+	top: 1px;
+}
+
+.car__trailer-two {
+	position: relative;
+	left: 25%;
+	top: 1px;
+
+}
+
+
+.car__wheels-tire {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 50%;
+	position: relative;
+	left: 17%;
+	top: -3px;
+}
+
+.car__wheels-discs {
+	width: 60px;
+	height: 60px;
+	background-color: gainsboro;
+	border-radius: 50%;
+	position: relative;
+	left: 47%;
+	top: -109px;
+}
+
+.car__wheels-nut {}
+
+.car__wheels-nut-1,
+.car__wheels-nut-2,
+.car__wheels-nut-3,
+.car__wheels-nut-4,
+.car__wheels-nut-5 {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: rgb(238, 4, 4);
+}
+
+.car__wheels-nut-1 {
+	position: relative;
+	left: 48%;
+	top: 1px;
+}
+
+.car__wheels-nut-2 {
+	position: relative;
+	left: 82%;
+	top: 15px;
+}
+
+.car__wheels-nut-3 {
+	position: relative;
+	left: 68%;
+	top: 30px;
+}
+
+.car__wheels-nut-4 {
+	position: relative;
+	left: 10%;
+	top: 20px;
+}
+
+.car__wheels-nut-5 {
+	position: relative;
+	left: 7%;
+	top: -16px;
+}
+
+.car__wheels-nut-6 {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: gainsboro;
+	border: 2px solid;
+	position: relative;
+	left: 24%;
+	top: -26px;
+}
+
+.trailer-container {
+	display: flex;
+}
+
+.trailer-container__container {
+	width: 1450px;
+	height: 357px;
+	background-color: rgb(214, 151, 34);
+	position: relative;
+	left: -11%;
+	top: -391px;
+	z-index: 1;
+}
+
+.trailer-container__wheels {
+	width: 178px;
+	height: 34px;
+	background-color: rgb(42, 165, 69);
+	position: relative;
+	left: -96%;
+	top: -34px;
+}
+
+
+.trailer-container__wheels-trailer {}
+
+.trailer-container__tall {
+	display: flex;
+	position: relative;
+	left: -205%;
+	top: 1px;
+	z-index: 1;
+}
+
+.discs-wheels-car {
+	position: relative;
+	left: -8%;
+	top: 39px;
+}
+
+.discs-wheels-car-two {
+	position: relative;
+	left: -8%;
+	top: 41px;
+}
+
+.car__wheels-hook {
+	width: 178px;
+	height: 105px;
+	background-color: blue;
+	position: relative;
+	left: -272%;
+	top: -146px;
+	z-index: -1;
+}
