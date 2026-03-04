@@ -1,0 +1,81 @@
+/*@import url("reset.css");*/
+
+body * {
+	color: #3e5a30;
+}
+
+.header {
+	background-color: rgb(182, 241, 207);
+}
+
+.header__logo {}
+
+.header__img {}
+
+.header__slogan {}
+
+.header__name1 {}
+
+.header__name2 {}
+
+.header__menu {}
+
+.item-header {}
+
+.item-header__menu {}
+
+.body {}
+
+.body__menu {}
+
+.item-body {}
+
+.item-body__menu {
+	color: rgb(120, 10, 25);
+}
+
+.body__text {}
+
+.body__text>p {
+	color: rgb(225, 130, 5);
+}
+
+/*.body__text a {
+	color: rgb(39, 147, 190);
+}*/
+
+.body__title {}
+
+.body__subtext {}
+
+.body__link {}
+
+.body__info h3 {
+	color: rgb(208, 15, 112);
+}
+
+.body__info-img {}
+
+.body__img {}
+
+.body__info-title {}
+
+.body__info-link {
+	color: blue;
+}
+
+.body__info-phone {
+	color: brown;
+}
+
+.body__info-email {
+	color: #3e5a30;
+}
+
+[class*="__link"] {
+	color: rgb(213, 9, 9);
+}
+
+[class*="__menu"] {
+	color: rgb(127, 117, 41);
+}
