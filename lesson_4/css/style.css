@@ -1,0 +1,56 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #6C757D;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 8px;
+	line-height: 1.4;
+	font-weight: 700;
+	color: #0675e4;
+}
+
+h2 {
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 25px;
+	color: #212529;
+	line-height: 1.6;
+}
+
+.menu {
+	text-align: right;
+	font-weight: 500;
+	line-height: 2.08;
+	text-transform: capitalize;
+}
+
+.header__content {
+	text-align: center;
+}
+
+.text {
+	line-height: 1.6;
+}
+
+.container {
+	text-align: left;
+}
+
+.goal__text p {
+	margin-bottom: 40px;
+	line-height: 1.78;
+}
+
+.success__text p {
+	line-height: 2;
+	margin-bottom: 40px;
+}
