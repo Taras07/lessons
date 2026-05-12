@@ -1,0 +1,70 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+
+.fon {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.78;
+	color: #6C757D;
+}
+
+
+.body__sub-list {
+	font-weight: 700;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.body__tittle,
+.body__tittle-2 {
+	font-weight: 700;
+	font-style: 25px;
+	color: #212529;
+
+}
+
+.body__list,
+.body__text,
+.body__tittle,
+.body__tittle-2 {
+	margin: 40px auto 40px;
+	max-width: 816px
+}
+
+.body__text p {
+	padding-bottom: 40px;
+}
+
+
+.body__img {
+	margin: 0 auto;
+	max-width: 1240px;
+}
+
+.sahara-3 {
+	margin-right: 25px;
+}
+
+
+.footer {
+	font-weight: 700;
+	font-size: 8px;
+	text-transform: uppercase;
+	color: #6C757D;
+	text-decoration: none;
+
+}
+
+li {
+	display: inline-block;
+	margin: 80px 25px 15px 0px;
+
+}
