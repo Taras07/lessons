@@ -1,0 +1,70 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #6C757D;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* ------------------------------------ */
+
+.artikal {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.artikal__container {}
+
+.artikal__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+	line-height: 25px;
+}
+
+.artikal__text-block p {
+	line-height: 1.8;
+	/* 25/14 */
+	margin-bottom: 30px;
+}
+
+.artikal__title {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	/* 40/25 */
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 571px;
+}
+
+.artikal__image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+
+.artikal__images {
+	font-size: 0;
+}
+
+.artikal__image-1 {
+	margin-right: 30px;
+}
+
+
+.artikal__image-fon {
+	width: 100%;
+	height: auto;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
